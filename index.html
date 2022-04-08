@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Capacitybay Survey Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Capacitybay Survey Form</h2>
+            <p>Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <div class="survey">
+            <form action="">
+                <label for="Name">Name</label>
+                <input class="block st" type="text" id="Name" required /><br>
+                <label for="Email">Email</label>
+                <input class="block st" type="email" id="email" required /><br>
+                <label for="age">Age (optional)</label>
+                <input class="block st" type="number" id="age" /><br>
+                <label for="role">Which option best describes your current role?</label>
+                <select class="block" id="role">
+                    <option value="">Select current role</option>
+                    <option value="">Student</option>
+                    <option value="">Full-Time Job</option>
+                    <option value="">Full-Time Learner</option>
+                    <option value="">Prefer not to say</option>
+                    <option value="">Other</option>
+                </select><br />
+                <label for="rec">Would you recommend Capacitybay to a friend?</label><br />
+                <input class="rad" type="radio" name="rec" id="rec" />Definitely<br />
+                <input class="rad" type="radio" name="rec" id="rec" />Maybe<br />
+                <input class="rad" type="radio" name="rec" id="rec" />Not sure<br /><br />
+                <label for="fav">What is your favorite feature of Capacitybay?</label>
+                <select class="block" id="fav">
+                    <option value="">Select an option</option>
+                    <option value="">Challenges</option>
+                    <option value="">Projects</option>
+                    <option value="">Community</option>
+                    <option value="">Open Source</option>
+                </select><br />
+                <label for="imp">What would you like to improve?
+                    <span>(check all that applies)</span></label><br /><input class="rad" type="checkbox" name=""
+                    id="imp" />Front-end
+                Projects<br />
+                <input class="rad" type="checkbox" name="" id="imp" />Back-end
+                Projects<br />
+                <input class="rad" type="checkbox" name="" id="imp" />Data
+                Visualization<br />
+                <input class="rad" type="checkbox" name="" id="imp" />Challenges<br />
+                <input class="rad" type="checkbox" name="" id="imp" />Open Source
+                Community<br />
+                <input class="rad" type="checkbox" name="" id="imp" />Gitter Help
+                Room<br />
+                <input class="rad" type="checkbox" name="" id="imp" />
+                Videos<br />
+                <input class="rad" type="checkbox" name="" id="imp" />City Meetups<br />
+                <input class="rad" type="checkbox" name="" id="imp" />Wiki<br />
+                <input class="rad" type="checkbox" name="" id="imp" />Forum<br />
+                <input class="rad" type="checkbox" name="" id="imp" />Additional
+                Courses<br /><br />
+                <label for="sug">Any comments or suggestion? </label>
+                <textarea class="block text" name="" id="sug"></textarea><br />
+                <button class="btn btn-green" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
